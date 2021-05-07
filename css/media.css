@@ -1,0 +1,211 @@
+@media screen and (min-width: 569px) and (max-width: 768px) {
+    .container {
+        margin: ;
+    }
+
+    .header {
+        align-items: center;
+        width: 1050px;
+    }
+
+    .hero-content__inner {
+        margin: 0 auto;
+    }
+}
+
+
+@media screen and (min-width: 320px) and (max-width: 568px) {
+    .header__inner {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .logo__link {
+        margin: 10px auto;
+    }
+
+    .social-links {
+        margin-right: 25px;
+        margin-bottom: 7px;
+    }
+
+    .hero-content__inner {
+        margin-top: 60px;
+        width: 100%;
+        flex-direction: column-reverse;
+    }
+
+    .hero-avatar {
+        margin: 0 auto;
+    }
+
+    .hero-icon {
+        width: 300px;
+        margin-bottom: 25px;
+    }
+
+    .hero-text {
+        text-align: center;
+    }
+
+    .hero-title {
+        font-size: 28px;
+    }
+
+    .hero-name {
+        font-size: 39px;
+        font-weight: 700;
+    }
+
+    blockquote {
+        padding: 15px 5px 15px 45px;
+    }
+
+    blockquote::before {
+        width: 30px;
+        height: 30px;
+        font-size: 34px;
+    }
+
+    .hero-quote {
+        font-size: 20px;
+        width: 95%;
+    }
+
+    .hero-button {
+        align-items: center;
+    }
+
+    .events-wrapper {
+        width: 100%;
+    }
+
+    .project-inner {
+        margin-top: 0;
+    }
+
+    .slider-fill {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .projects-title {
+        text-align: center;
+        margin-bottom: 40px;
+        padding-left: 0;
+    }
+
+    .slider-img {
+        margin: 0 auto;
+        padding-left: 0;
+    }
+
+    .slider-text__title {
+        font-size: 19px;
+        margin: 20px auto 25px auto;
+    }
+
+    .time_and_profit {
+        margin: 0 auto;
+    }
+
+    .period-title {
+        font-size: 14px;
+    }
+
+    .period-text {
+        font-size: 12px;
+    }
+
+    .profit-title {
+        font-size: 14px;
+    }
+
+    .profit-text {
+        font-size: 12px;
+    }
+
+    .time {
+        width: 180px;
+        margin-left: 20px;
+    }
+
+    .project-description__text {
+        text-align: center;
+    }
+
+    .project-description__img {
+        visibility: hidden;
+        margin-right: 0;
+        width: 1px;
+    }
+
+    .slogan {
+        text-align: center;
+    }
+
+    .features-block {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .contacts-fill {
+        flex-direction: column;
+    }
+
+    .dws-input {
+        width: 100%;
+    }
+
+    .registration-form {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 30px;
+    }
+
+    .phone__num {
+        font-size: 28px;
+        margin-left: 10px;
+        margin-bottom: 30px;
+    }
+
+    .num {
+        font-size: 16px;
+    }
+
+    .email {
+        font-size: 28px;
+        margin-left: 10px;
+    }
+
+    .poshta {
+        font-size: 16px;
+    }
+
+
+    .telephone_and_mail {
+        flex-direction: column;
+    }
+
+    .social-network__title {
+        margin-left: 10px;
+    }
+
+    .contacts-socialnetwork_links {
+        margin-left: 120px;
+    }
+
+    .confidence_link {
+        margin-left: 90px;
+        margin-bottom: 20px;
+    }
+
+    .pre-footer {
+        display: none;
+    }
+
+    .footer {
+        display: none;
+    }
+
+}
